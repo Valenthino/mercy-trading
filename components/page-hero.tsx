@@ -21,14 +21,14 @@ export function PageHero({
         aria-hidden="true"
         className="absolute inset-0 -z-10 h-full w-full object-cover"
       />
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-brand-950/95 via-brand-950/80 to-brand-900/50" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-brand-950/94 via-brand-950/78 to-brand-900/42" />
       <Container>
-        <div className="max-w-3xl py-20 sm:py-28">
+        <div className="max-w-3xl py-20 sm:py-28 [text-shadow:0_2px_16px_rgba(5,38,27,0.5)]">
           <Eyebrow light>{eyebrow}</Eyebrow>
           <h1 className="mt-4 font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-5xl">
             {title}
           </h1>
-          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/75">{subtitle}</p>
+          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/80">{subtitle}</p>
         </div>
       </Container>
     </section>

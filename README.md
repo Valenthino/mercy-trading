@@ -65,8 +65,9 @@ languages ever drift apart.
 
 ### Photos
 
-The site ships with labelled placeholder images. To use the real photos, drop
-them into `public/images/` and update the four paths in `lib/assets.ts`. See
+The real Mercy Trading photos are installed in `public/images/` (optimised JPEGs)
+and referenced from `lib/assets.ts`. To replace any of them later, drop a new file
+into `public/images/` and update the matching path in `lib/assets.ts`. See
 [`public/images/README.md`](public/images/README.md) for the full guide.
 
 ### Contact details

@@ -44,10 +44,11 @@ export function HomeContent() {
           aria-hidden="true"
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-brand-950/95 via-brand-950/80 to-brand-900/45" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-brand-950/92 via-brand-950/65 to-brand-950/25" />
+        <div className="absolute inset-x-0 bottom-0 -z-10 h-1/3 bg-gradient-to-t from-brand-950/80 to-transparent" />
 
         <Container className="flex flex-1 items-center">
-          <div className="max-w-3xl py-16">
+          <div className="max-w-3xl py-16 [text-shadow:0_2px_16px_rgba(5,38,27,0.45)]">
             <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-xs font-medium text-white/85 ring-1 ring-inset ring-white/20 backdrop-blur">
               <span className="h-1.5 w-1.5 rounded-full bg-gold-300" />
               {h.hero.badge}
@@ -70,7 +71,7 @@ export function HomeContent() {
         </Container>
 
         {/* Stats strip */}
-        <div className="relative border-t border-white/10 bg-white/[0.04] backdrop-blur-sm">
+        <div className="relative border-t border-white/10 bg-brand-950/50 backdrop-blur-sm">
           <Container>
             <dl className="grid grid-cols-2 gap-6 py-8 sm:grid-cols-4">
               {h.stats.map((s) => (

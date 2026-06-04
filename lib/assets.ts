@@ -13,13 +13,13 @@
 
 export const IMAGES = {
   /** Photo 1 — blue warehouse exterior with truck and pallets. */
-  warehouseExterior: "/images/warehouse-exterior.svg",
+  warehouseExterior: "/images/warehouse-exterior.jpg",
   /** Photo 2 — green forklift moving stacked jute sacks of cashews. */
-  forkliftLoading: "/images/forklift-loading.svg",
+  forkliftLoading: "/images/forklift-loading.jpg",
   /** Photo 3 — workers bagging raw cashew nuts in export bags. */
-  workersBagging: "/images/workers-bagging.svg",
+  workersBagging: "/images/workers-bagging.jpg",
   /** Photo 4 — inspector with clipboard beside stacked sacks. */
-  inspectorClipboard: "/images/inspector-clipboard.svg",
+  inspectorClipboard: "/images/inspector-clipboard.jpg",
 } as const;
 
 export type ImageKey = keyof typeof IMAGES;

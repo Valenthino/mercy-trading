@@ -1,37 +1,27 @@
 # Site photography
 
-This folder holds the images used across the website. The site ships with
-**on-brand SVG placeholders** so it looks complete out of the box. Swapping in
-your own photos takes two minutes.
+The real Mercy Trading photos are installed in this folder as optimised `.jpg`
+files (resized to 1920 px wide for fast loading). They are referenced from
+[`lib/assets.ts`](../../lib/assets.ts).
 
 ## The four images
 
-| File slot                  | Where it appears                                  | Suggested photo                              |
+| File                       | Where it appears                                  | Photo                                        |
 | -------------------------- | ------------------------------------------------- | -------------------------------------------- |
-| `warehouse-exterior.*`     | Home hero, About hero, Contact hero               | Blue warehouse exterior with truck & pallets |
-| `forklift-loading.*`       | Home intro, Services hero, Products origin        | Green forklift moving sacks of cashews       |
-| `workers-bagging.*`        | Home network teaser, About story, Products hero   | Workers bagging raw cashew nuts              |
-| `inspector-clipboard.*`    | Home "why us", Network hero                       | Inspector with clipboard beside the sacks    |
+| `warehouse-exterior.jpg`   | Home hero, About hero, Contact hero               | Blue warehouse exterior with truck & pallets |
+| `forklift-loading.jpg`     | Home intro, Services hero, Products origin         | Green ZOOMLION forklift moving sacks         |
+| `workers-bagging.jpg`      | Home network teaser, About story, Products hero    | Workers bagging raw cashew nuts              |
+| `inspector-clipboard.jpg`  | Home "why us", Network hero                        | Inspector with clipboard beside the sacks    |
 
-## How to use your own photos
+## Replacing a photo later
 
-1. Add your photo files to this folder, e.g. `warehouse-exterior.jpg`.
-2. Open [`lib/assets.ts`](../../lib/assets.ts) and point each entry at your file:
-
-   ```ts
-   export const IMAGES = {
-     warehouseExterior: "/images/warehouse-exterior.jpg",
-     forkliftLoading: "/images/forklift-loading.jpg",
-     workersBagging: "/images/workers-bagging.jpg",
-     inspectorClipboard: "/images/inspector-clipboard.jpg",
-   };
-   ```
-
+1. Drop the new file into this folder (any name is fine).
+2. Point the matching entry in [`lib/assets.ts`](../../lib/assets.ts) at it.
 3. Save — every page that uses the image updates automatically.
 
 ## Tips
 
-- **Format:** `.jpg` or `.webp` work well for photos. Keep `.svg` only for graphics.
-- **Size:** export at roughly **1600 px wide** and compress (e.g. [squoosh.app](https://squoosh.app)) to keep the site fast. Aim for under ~300 KB each.
-- **Orientation:** the hero and most slots are landscape; the "why us" slot is portrait (4:5). Landscape photos crop cleanly everywhere thanks to `object-cover`.
-- You can delete the placeholder `.svg` files once your photos are in place.
+- **Size:** keep photos around **1600–1920 px wide** and compressed (under ~600 KB).
+  On macOS you can resize with: `sips -Z 1920 -s formatOptions 72 input.jpg --out output.jpg`
+- **Orientation:** most slots are landscape; the home "why us" slot is portrait (4:5).
+  Landscape photos crop cleanly everywhere thanks to `object-cover`.
