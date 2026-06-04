@@ -44,8 +44,8 @@ export function HomeContent() {
           aria-hidden="true"
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-brand-950/92 via-brand-950/65 to-brand-950/25" />
-        <div className="absolute inset-x-0 bottom-0 -z-10 h-1/3 bg-gradient-to-t from-brand-950/80 to-transparent" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-brand-950/95 via-brand-950/85 to-brand-900/60" />
+        <div className="absolute inset-x-0 bottom-0 -z-10 h-1/3 bg-gradient-to-t from-brand-950/85 to-transparent" />
 
         <Container className="flex flex-1 items-center">
           <div className="max-w-3xl py-16 [text-shadow:0_2px_16px_rgba(5,38,27,0.45)]">

@@ -21,7 +21,7 @@ export function PageHero({
         aria-hidden="true"
         className="absolute inset-0 -z-10 h-full w-full object-cover"
       />
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-brand-950/94 via-brand-950/78 to-brand-900/42" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-brand-950/95 via-brand-950/85 to-brand-900/60" />
       <Container>
         <div className="max-w-3xl py-20 sm:py-28 [text-shadow:0_2px_16px_rgba(5,38,27,0.5)]">
           <Eyebrow light>{eyebrow}</Eyebrow>
