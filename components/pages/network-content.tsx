@@ -2,6 +2,7 @@
 
 import { Reveal, Section, SectionHeading } from "@/components/ui";
 import { CtaBand } from "@/components/cta-band";
+import { Partners } from "@/components/partners";
 import { PageHero } from "@/components/page-hero";
 import { Building, Globe, MapPin, Users, Warehouse } from "@/components/icons";
 import { useI18n, useLocalizedTitle } from "@/components/language-provider";
@@ -80,6 +81,8 @@ export function NetworkContent() {
           ))}
         </div>
       </Section>
+
+      <Partners background="white" />
 
       <CtaBand />
     </>

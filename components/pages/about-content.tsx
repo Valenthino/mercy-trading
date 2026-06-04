@@ -8,6 +8,7 @@ import {
   SectionHeading,
 } from "@/components/ui";
 import { CtaBand } from "@/components/cta-band";
+import { DirectorAvatar } from "@/components/director-avatar";
 import { PageHero } from "@/components/page-hero";
 import { PageImage } from "@/components/page-image";
 import {
@@ -64,9 +65,7 @@ export function AboutContent() {
           <Eyebrow>{a.director.eyebrow}</Eyebrow>
           <div className="mt-6 grid gap-8 rounded-3xl bg-gradient-to-br from-brand-950 to-brand-800 p-8 text-white shadow-soft sm:p-10 lg:grid-cols-12 lg:items-center">
             <div className="lg:col-span-3">
-              <div className="flex h-28 w-28 items-center justify-center rounded-2xl bg-gold-400 font-display text-4xl font-extrabold tracking-tight text-brand-950">
-                MLD
-              </div>
+              <DirectorAvatar />
             </div>
             <div className="lg:col-span-9">
               <h2 className="font-display text-2xl font-bold">{a.director.name}</h2>

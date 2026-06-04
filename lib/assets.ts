@@ -20,6 +20,12 @@ export const IMAGES = {
   workersBagging: "/images/workers-bagging.jpg",
   /** Photo 4 — inspector with clipboard beside stacked sacks. */
   inspectorClipboard: "/images/inspector-clipboard.jpg",
+  /**
+   * Headshot of the Director, Mohamed Lamine Diaby.
+   * Drop the file at public/images/mohamed-diaby.jpg — until it exists, the
+   * About page gracefully shows his "MLD" initials instead (no broken image).
+   */
+  directorPhoto: "/images/mohamed-diaby.jpg",
 } as const;
 
 export type ImageKey = keyof typeof IMAGES;

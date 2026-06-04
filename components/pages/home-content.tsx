@@ -11,6 +11,7 @@ import {
   Stat,
 } from "@/components/ui";
 import { CtaBand } from "@/components/cta-band";
+import { Partners } from "@/components/partners";
 import { PageImage } from "@/components/page-image";
 import {
   Exchange,
@@ -211,6 +212,8 @@ export function HomeContent() {
           </Reveal>
         </div>
       </Section>
+
+      <Partners />
 
       <CtaBand />
     </>

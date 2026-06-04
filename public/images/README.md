@@ -13,6 +13,13 @@ files (resized to 1920 px wide for fast loading). They are referenced from
 | `workers-bagging.jpg`      | Home network teaser, About story, Products hero    | Workers bagging raw cashew nuts              |
 | `inspector-clipboard.jpg`  | Home "why us", Network hero                        | Inspector with clipboard beside the sacks    |
 
+## Director photo (optional)
+
+The About page can show a headshot of the Director. Save it as
+**`mohamed-diaby.jpg`** in this folder and it appears automatically on the
+About page. Until then, his initials ("MLD") are shown as a clean fallback.
+A square crop (roughly 600×600 px) works best.
+
 ## Replacing a photo later
 
 1. Drop the new file into this folder (any name is fine).

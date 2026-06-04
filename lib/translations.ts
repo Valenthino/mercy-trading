@@ -266,6 +266,22 @@ const en = {
       ],
     },
   },
+  partners: {
+    eyebrow: "Trusted by",
+    title: "Partners & organizations that trust us",
+    subtitle:
+      "We work alongside the world's leading shipping lines, trade bodies and agribusinesses to move cashews reliably from origin to market.",
+    items: [
+      { name: "CMA CGM", role: "Shipping & logistics" },
+      { name: "MSC", role: "Shipping & logistics" },
+      { name: "Maersk", role: "Shipping & logistics" },
+      { name: "Evergreen", role: "Shipping & logistics" },
+      { name: "Cashew India", role: "Industry partner" },
+      { name: "Conseil du Coton et de l'Anacarde (CCA)", role: "Institutional partner" },
+      { name: "The Andersons, Inc.", role: "Agribusiness partner" },
+    ],
+    conference: "Proud participant of the World Cashew Conference",
+  },
   contact: {
     hero: {
       eyebrow: "Contact",
@@ -565,6 +581,22 @@ const fr: typeof en = {
         { title: "Livrer", desc: "La marchandise est expédiée aux acheteurs ou vers nos entrepôts sous douane en Asie." },
       ],
     },
+  },
+  partners: {
+    eyebrow: "Ils nous font confiance",
+    title: "Partenaires et organisations qui nous font confiance",
+    subtitle:
+      "Nous collaborons avec les plus grandes compagnies maritimes, organisations de la filière et acteurs agro-industriels pour acheminer le cajou de l'origine au marché en toute fiabilité.",
+    items: [
+      { name: "CMA CGM", role: "Transport & logistique" },
+      { name: "MSC", role: "Transport & logistique" },
+      { name: "Maersk", role: "Transport & logistique" },
+      { name: "Evergreen", role: "Transport & logistique" },
+      { name: "Cashew India", role: "Partenaire de la filière" },
+      { name: "Conseil du Coton et de l'Anacarde (CCA)", role: "Partenaire institutionnel" },
+      { name: "The Andersons, Inc.", role: "Partenaire agro-industriel" },
+    ],
+    conference: "Fier participant de la World Cashew Conference",
   },
   contact: {
     hero: {
