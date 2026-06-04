@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#11503a" />
+      <stop offset="100%" stop-color="#05231a" />
+    </linearGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c9d64" />
+      <stop offset="100%" stop-color="#0c4230" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#bg)" />
+  <circle cx="300" cy="240" r="320" fill="#ffffff" opacity="0.04" />
+  <circle cx="1320" cy="920" r="320" fill="#e1b85a" opacity="0.05" />
+  <g transform="translate(710,360)">
+    <rect width="180" height="180" rx="44" fill="url(#badge)" />
+    <g transform="translate(45,45) scale(3.75)" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3 5 6v5c0 4.5 3 8 7 10 4-2 7-5.5 7-10V6l-7-3Z" />
+      <path d="m9 12 2 2 4-4" />
+    </g>
+  </g>
+  <text x="800" y="640" text-anchor="middle" font-size="46" font-weight="700" fill="#ffffff">Quality inspection</text>
+  <text x="800" y="700" text-anchor="middle" font-size="27" fill="#ffffff" opacity="0.7">Replace with your photo · public/images/inspector-clipboard.jpg</text>
+  <text x="800" y="1030" text-anchor="middle" font-size="22" letter-spacing="6" fill="#e1b85a" opacity="0.8">MERCY TRADING SOLUTIONS</text>
+</svg>
