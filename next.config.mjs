@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Produce a fully static site in `out/` so it can be hosted anywhere
-  // (Vercel, Netlify, Cloudflare Pages, GitHub Pages, S3, etc.).
-  output: "export",
-  // Static export cannot use the on-demand image optimizer.
+  // Standard Next.js server build: `next build` produces the .next directory
+  // and `next start` serves it. This is what the GoDaddy Node.js host runs.
+  // (We intentionally do NOT use `output: "export"` here, because static
+  // export is incompatible with `next start`.)
   images: { unoptimized: true },
   // Don't let lint warnings block a production build.
   eslint: { ignoreDuringBuilds: true },
